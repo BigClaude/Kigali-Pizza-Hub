@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amafoto ya Pizza z'Umwimerere | ITALIANO PIZZA Kigali</title>
+    <meta name="description" content="ITALIANO PIZZA Kigali: Reba amafoto meza y'amoko atandukanye ya pizza zitetse mu ifuru y'amabuye n'inkwi i Nyarutarama na Kimihurura, Kigali, Rwanda." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Modular CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Hidden checkbox driving the Pure CSS Auth Modal (Zero JS) -->
+    <input type="checkbox" id="auth-modal" class="modal-toggle" />
+
+    <!-- Site Header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <!-- Zone 1: Brand Wordmark -->
+        <a href="index.html" class="brand">
+          <div class="brand-icon">🔥</div>
+          <div class="brand-text">
+            <span class="brand-title">ITALIANO PIZZA</span>
+            <span class="brand-sub">Kigali &middot; Rwanda</span>
+          </div>
+        </a>
+
+        <!-- Zone 2: Navigation Links WITH Pure CSS Hover Sub-Menu for Pizza Sizes -->
+        <nav>
+          <ul class="nav-menu">
+            <li>
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            
+            <li class="has-dropdown">
+              <a href="menu.html" class="nav-link">
+                Menu <span class="dropdown-arrow">▾</span>
+              </a>
+
+              <!-- CSS-ONLY Hover Dropdown Sub-Menu -->
+              <div class="css-dropdown-menu">
+                <div class="dropdown-header-bar">
+                  <span class="dropdown-heading">Ingano za Pizza i Kigali</span>
+                  <span class="dropdown-tag">CSS Hover Nav</span>
+                </div>
+                <div class="sizes-grid">
+                  <a href="menu.html#size-personal" class="size-item-card">
+                    <div class="size-top-row">
+                      <span class="size-title">Personal 10&quot;</span>
+                      <span class="size-inches">25 cm</span>
+                    </div>
+                    <span class="size-meta">Iduce 4 &middot; Umuntu 1 (Solo)</span>
+                  </a>
+                  <a href="menu.html#size-classic" class="size-item-card">
+                    <div class="size-top-row">
+                      <span class="size-title">Classic 12&quot;</span>
+                      <span class="size-inches">30 cm</span>
+                    </div>
+                    <span class="size-meta">Iduce 6 &middot; Abantu 1–2</span>
+                  </a>
+                  <a href="menu.html#size-shared" class="size-item-card">
+                    <div class="size-top-row">
+                      <span class="size-title">Shared 14&quot;</span>
+                      <span class="size-inches">35 cm</span>
+                    </div>
+                    <span class="size-meta">Iduce 8 &middot; Abantu 2–3</span>
+                  </a>
+                  <a href="menu.html#size-family" class="size-item-card">
+                    <div class="size-top-row">
+                      <span class="size-title">Grande Festa 18&quot;</span>
+                      <span class="size-inches">45 cm</span>
+                    </div>
+                    <span class="size-meta">Iduce 12 &middot; Umuryango &amp; Inshuti</span>
+                  </a>
+                </div>
+                <div class="dropdown-footer-bar">
+                  <span>Ifu: Amasaha 72 yo gutegura ifu</span>
+                  <a href="menu.html" class="dropdown-footer-link">Reba Menu Yose &rarr;</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <a href="gallery.html" class="nav-link active">Gallery</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Zone 3: Primary Action -->
+        <div class="header-actions">
+          <a href="italiano-pizza-website.zip" download="italiano-pizza-website.zip" class="download-btn" title="Kora download ya website yose mu ifolder imwe (ZIP)">
+            <span>⬇ Download Website (ZIP)</span>
+          </a>
+          <label for="auth-modal" class="btn btn-primary">
+            <span>Injira / Sign Up</span>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <!-- PURE CSS GALLERY FILTERING CONTROLS (Zero JavaScript) -->
+    <input type="radio" name="gallery-filter" id="cat-all" class="gallery-filter-inputs" checked />
+    <input type="radio" name="gallery-filter" id="cat-classiche" class="gallery-filter-inputs" />
+    <input type="radio" name="gallery-filter" id="cat-bianca" class="gallery-filter-inputs" />
+    <input type="radio" name="gallery-filter" id="cat-speciali" class="gallery-filter-inputs" />
+    <input type="radio" name="gallery-filter" id="cat-oven" class="gallery-filter-inputs" />
+
+    <!-- Main Content -->
+    <main style="padding: 5rem 0 6rem;">
+      <div class="container">
+        <!-- Gallery Header in Kinyarwanda -->
+        <div style="text-align: center; max-width: 680px; margin: 0 auto 1.5rem;">
+          <span style="color: var(--color-amber-primary); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase;">
+            Amafoto y&rsquo;Ifuru y&rsquo;Amabuye i Kigali
+          </span>
+          <h1 style="font-size: 3rem; margin-top: 0.5rem; margin-bottom: 1rem;">
+            Amafoto ya Pizza zacu
+          </h1>
+          <p style="color: var(--color-text-muted); font-size: 1rem; line-height: 1.6;">
+            Itegerezereze ubwoko butandukanye bwa pizza zitetse mu ifuru y&rsquo;inkwi z&rsquo;amabuye ku bushyuhe bwa 485°C. 
+            Kanda kuri buri foto uyirebe neza mu buryo bwagutse bwa CSS Lightbox nta javascript ikoreshejwe.
+          </p>
+        </div>
+
+        <!-- Pure CSS Category Filter Tabs in Kinyarwanda -->
+        <div class="gallery-tabs-nav">
+          <label for="cat-all" class="filter-tab-label">Amafoto Yose (5)</label>
+          <label for="cat-classiche" class="filter-tab-label">Izo mu Bwoko bwa Napoli</label>
+          <label for="cat-bianca" class="filter-tab-label">Pizza Bianca (Nta Nyanya)</label>
+          <label for="cat-speciali" class="filter-tab-label">Izirimo Urusenda</label>
+          <label for="cat-oven" class="filter-tab-label">Ifuru y&rsquo;Inkwi &amp; Amabuye</label>
+        </div>
+
+        <!-- Photo Grid -->
+        <div class="gallery-grid">
+          <!-- Card 1: Margherita -->
+          <article class="gallery-card cat-classiche">
+            <a href="#lightbox-1" class="gallery-photo-link" title="Kanda urebe ifoto nini">
+              <img src="images/hero-margherita.jpg" alt="Margherita Vera DOP in Kigali stone oven" />
+              <div class="gallery-photo-badge">485°C &middot; 65s</div>
+            </a>
+            <div class="gallery-details">
+              <span style="font-size: 0.7rem; font-family: var(--font-mono); color: var(--color-amber-primary); text-transform: uppercase; font-weight: 600;">
+                Izo mu Bwoko bwa Napoli
+              </span>
+              <h3>Margherita Vera D.O.P.</h3>
+              <p style="font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.5;">
+                Ihiye mu masegonda 65 gusa ku mabuye ashyushye. Urubavu rwayo rurimo imyenge y&rsquo;umwuka yorohereza igifu.
+              </p>
+              <div class="gallery-specs-row">
+                <div class="spec-cell">
+                  <span>Ifu</span>
+                  <strong>Amasaha 72</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Ubushyuhe</span>
+                  <strong>485°C</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Igihe cyo Gushya</span>
+                  <strong>Masegonda 65</strong>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Diavola -->
+          <article class="gallery-card cat-speciali">
+            <a href="#lightbox-2" class="gallery-photo-link" title="Kanda urebe ifoto nini">
+              <img src="images/pizza-diavola.jpg" alt="Diavola spicy salami pizza in Kigali" />
+              <div class="gallery-photo-badge">Urusenda &amp; Ubuki</div>
+            </a>
+            <div class="gallery-details">
+              <span style="font-size: 0.7rem; font-family: var(--font-mono); color: var(--color-amber-primary); text-transform: uppercase; font-weight: 600;">
+                Izirimo Urusenda
+              </span>
+              <h3>Diavola Spianata &amp; Urusenda</h3>
+              <p style="font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.5;">
+                Inyama y&rsquo;isalami y&rsquo;urusenda ikaranze ku ifuru y&rsquo;amabuye, ikorerwa uburyohe bwiyongereyeho ubuki bw&rsquo;umwimerere.
+              </p>
+              <div class="gallery-specs-row">
+                <div class="spec-cell">
+                  <span>Ifu</span>
+                  <strong>Amasaha 72</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Ubwoko</span>
+                  <strong>Spicy Salami</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Ifuru</span>
+                  <strong>475°C Inkwi</strong>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Truffle Mushroom -->
+          <article class="gallery-card cat-bianca">
+            <a href="#lightbox-3" class="gallery-photo-link" title="Kanda urebe ifoto nini">
+              <img src="images/pizza-truffle.jpg" alt="Wild chanterelle and black truffle pizza in Kigali" />
+              <div class="gallery-photo-badge">Pizza Bianca</div>
+            </a>
+            <div class="gallery-details">
+              <span style="font-size: 0.7rem; font-family: var(--font-mono); color: var(--color-amber-primary); text-transform: uppercase; font-weight: 600;">
+                Pizza Bianca (Nta Nyanya)
+              </span>
+              <h3>Wild Chanterelle &amp; Black Truffle</h3>
+              <p style="font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.5;">
+                Ikozwe nta nyanya irimo, ahubwo ikize kuri foromaje ya Taleggio n&rsquo;ibihumyo by&rsquo;ishyamba byokeje mu ifuru y&rsquo;amabuye.
+              </p>
+              <div class="gallery-specs-row">
+                <div class="spec-cell">
+                  <span>Foromaje</span>
+                  <strong>Taleggio DOP</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Ibihumyo</span>
+                  <strong>Truffle &amp; Chanterelle</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Ifu</span>
+                  <strong>Amasaha 72</strong>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Cheese Pull & Stretch -->
+          <article class="gallery-card cat-classiche">
+            <a href="#lightbox-4" class="gallery-photo-link" title="Kanda urebe ifoto nini">
+              <img src="images/menu-hero.jpg" alt="Cheese pull pizza in Kigali" />
+              <div class="gallery-photo-badge">Uburyohe bw'Ifu</div>
+            </a>
+            <div class="gallery-details">
+              <span style="font-size: 0.7rem; font-family: var(--font-mono); color: var(--color-amber-primary); text-transform: uppercase; font-weight: 600;">
+                Izo mu Bwoko bwa Napoli
+              </span>
+              <h3>Uko Foromaje Ishonga n&rsquo;Ifu yayo</h3>
+              <p style="font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.5;">
+                Reba uko foromaje n&rsquo;ifu ikoze mu mbuto nziza y&rsquo;ingano yoroha igashongeka neza ikimara gusohoka mu ifuru y&rsquo;amabuye.
+              </p>
+              <div class="gallery-specs-row">
+                <div class="spec-cell">
+                  <span>Ubusemburo</span>
+                  <strong>Wild Levain</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Igihe cyo Gukora</span>
+                  <strong>Amasaha 72</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Urukoko</span>
+                  <strong>Rworoshye Cyane</strong>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Wood Oven Interior -->
+          <article class="gallery-card cat-oven">
+            <a href="#lightbox-5" class="gallery-photo-link" title="Kanda urebe ifoto nini">
+              <img src="images/wood-oven.jpg" alt="Wood-fired oven in Kigali with burning embers" />
+              <div class="gallery-photo-badge">500°C Ifuru</div>
+            </a>
+            <div class="gallery-details">
+              <span style="font-size: 0.7rem; font-family: var(--font-mono); color: var(--color-amber-primary); text-transform: uppercase; font-weight: 600;">
+                Ifuru y&rsquo;Inkwi &amp; Amabuye
+              </span>
+              <h3>Amakara y&rsquo;Inkwi n&rsquo;Amabuye y&rsquo;Ifuru</h3>
+              <p style="font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.5;">
+                Ifuru yubatswe n&rsquo;amabuye arwanya ubushyuhe bukabije. Inkwi z&rsquo;akarande zicanwa zitanga impumuro nziza cyane idacumba umwotsi mubi.
+              </p>
+              <div class="gallery-specs-row">
+                <div class="spec-cell">
+                  <span>Inkwi</span>
+                  <strong>Ibiti Byumye Neza</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Amabuye</span>
+                  <strong>Biscotto Stone</strong>
+                </div>
+                <div class="spec-cell">
+                  <span>Aho Iri</span>
+                  <strong>Kigali, Rwanda</strong>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 4.5rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="menu.html" class="btn btn-primary" style="padding: 0.75rem 2rem;">
+            <span>Reba Menu Ushakishe Pizza Ukunda &rarr;</span>
+          </a>
+          <a href="contact.html" class="btn btn-outline" style="padding: 0.75rem 2rem;">
+            <span>Fata Ameza (Reservation) &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- PURE CSS LIGHTBOX MODALS VIA :target (Zero JavaScript) -->
+    <div id="lightbox-1" class="css-lightbox">
+      <div class="lightbox-content">
+        <a href="#close" class="lightbox-close" title="Funga">&times;</a>
+        <img src="images/hero-margherita.jpg" alt="Margherita Vera DOP" />
+      </div>
+    </div>
+
+    <div id="lightbox-2" class="css-lightbox">
+      <div class="lightbox-content">
+        <a href="#close" class="lightbox-close" title="Funga">&times;</a>
+        <img src="images/pizza-diavola.jpg" alt="Diavola & Hot Honey" />
+      </div>
+    </div>
+
+    <div id="lightbox-3" class="css-lightbox">
+      <div class="lightbox-content">
+        <a href="#close" class="lightbox-close" title="Funga">&times;</a>
+        <img src="images/pizza-truffle.jpg" alt="Wild Chanterelle & Truffle" />
+      </div>
+    </div>
+
+    <div id="lightbox-4" class="css-lightbox">
+      <div class="lightbox-content">
+        <a href="#close" class="lightbox-close" title="Funga">&times;</a>
+        <img src="images/menu-hero.jpg" alt="Cheese Pull" />
+      </div>
+    </div>
+
+    <div id="lightbox-5" class="css-lightbox">
+      <div class="lightbox-content">
+        <a href="#close" class="lightbox-close" title="Funga">&times;</a>
+        <img src="images/wood-oven.jpg" alt="Wood-fired oven" />
+      </div>
+    </div>
+
+    <!-- Pure CSS Auth Modal (Login / Sign Up) - Zero JavaScript -->
+    <div class="css-modal">
+      <label for="auth-modal" class="modal-backdrop-label" title="Funga"></label>
+      
+      <input type="radio" name="auth-tab" id="auth-tab-login" class="tab-radio" checked />
+      <input type="radio" name="auth-tab" id="auth-tab-signup" class="tab-radio" />
+
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <div>
+            <span class="modal-kicker">ITALIANO PIZZA Kigali</span>
+            <h3 class="modal-title">Injira cyangwa Iyandikishe</h3>
+          </div>
+          <label for="auth-modal" class="modal-close-btn" title="Funga">&times;</label>
+        </div>
+
+        <div class="tab-nav">
+          <label for="auth-tab-login" class="tab-label">Injira (Sign In)</label>
+          <label for="auth-tab-signup" class="tab-label">Fungura Konti</label>
+        </div>
+
+        <div id="panel-login" class="auth-panel">
+          <form action="/menu.html" method="get">
+            <div class="form-group">
+              <label class="form-label" for="login-email">Imeyili (Email)</label>
+              <input type="email" id="login-email" class="form-input" required placeholder="umukiriya@italianopizza.rw" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="login-password">Ijambobanga (Password)</label>
+              <input type="password" id="login-password" class="form-input" required placeholder="••••••••" />
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.75rem; margin-top: 0.5rem;">
+              <span>Injira Muri Konti Yawe</span>
+            </button>
+            <p class="form-footer-note">
+              Ukeneye ubufasha? <a href="contact.html" style="color: var(--color-amber-primary); text-decoration: underline;">Twandikire hano &rarr;</a>
+            </p>
+          </form>
+        </div>
+
+        <div id="panel-signup" class="auth-panel">
+          <form action="/menu.html" method="get">
+            <div class="form-group">
+              <label class="form-label" for="signup-name">Amazina Yombi</label>
+              <input type="text" id="signup-name" class="form-input" required placeholder="Jean Claude Mugisha" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="signup-email">Imeyili (Email)</label>
+              <input type="email" id="signup-email" class="form-input" required placeholder="mugisha@example.rw" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="signup-password">Shyiraho Ijambobanga</label>
+              <input type="password" id="signup-password" class="form-input" required placeholder="••••••••" />
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.75rem; margin-top: 0.5rem;">
+              <span>Fungura Konti Nshya</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Bar -->
+    <div class="mobile-nav-bar">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="menu.html" class="mobile-nav-link">Menu</a>
+      <a href="gallery.html" class="mobile-nav-link active">Gallery</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </div>
+
+    <!-- Site Footer with RWANDA ADDRESS -->
+    <footer class="site-footer">
+      <div class="container">
+                <!-- Standalone Download Banner -->
+        <div class="footer-download-banner">
+          <div class="footer-download-info">
+            <span class="footer-download-tag">📦 STANDALONE COMPLETE WEBSITE &middot; KIGALI, RWANDA</span>
+            <h4 class="footer-download-title">Kora Download ya Website Yose mu iFolder Imwe (ZIP)</h4>
+            <p class="footer-download-desc">
+              Ushobora gukuramo iyi website yose (HTML, CSS, Amafoto, Videwo) mu ifolder imwe. Ifungukira muri mudasobwa cyangwa terefoni nta interineti ikenewe (100% Offline Ready, Zero JavaScript, Beginner Friendly).
+            </p>
+          </div>
+          <div class="footer-download-actions">
+            <div class="download-pill-badge">
+              <strong>ITALIANO PIZZA</strong><br>Offline &amp; Web Ready
+            </div>
+            <a href="italiano-pizza-website.zip" download="italiano-pizza-website.zip" class="btn btn-primary" style="padding: 0.75rem 1.6rem; white-space: nowrap;">
+              <span>⬇ Download Site (ZIP)</span>
+            </a>
+          </div>
+        </div>
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="brand" style="margin-bottom: 1rem;">
+              <div class="brand-icon">🔥</div>
+              <div class="brand-text">
+                <span class="brand-title">ITALIANO PIZZA</span>
+                <span class="brand-sub">Kigali &middot; Rwanda</span>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; line-height: 1.6; color: var(--color-text-muted); margin-bottom: 1rem;">
+              Tubahaye ikaze muri ITALIANO PIZZA: pizza y&rsquo;umwimerere itetse mu ifuru y&rsquo;inkwi z&rsquo;amabuye i Kigali. 
+              Dukoresha ifu imara amasaha 72 itegurwa kugira ngo irusheho kuryoha no kuguha ubuzima bwiza.
+            </p>
+            <a href="contact.html" class="btn btn-outline" style="padding: 0.4rem 0.9rem; font-size: 0.8rem;">
+              <span>Twandikire / Fata Ameza &rarr;</span>
+            </a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Paji z&rsquo;Urubuga</h4>
+            <div class="footer-links">
+              <a href="index.html">Ahabanza (Home)</a>
+              <a href="menu.html">Menu na Pizzas</a>
+              <a href="gallery.html">Amafoto (Gallery)</a>
+              <a href="about.html">Amateka Yacu</a>
+              <a href="contact.html" style="color: var(--color-amber-primary); font-weight: 600;">Aho Tubarizwa &amp; Ameza (Contact) &rarr;</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Amasaha yo Gufungura</h4>
+            <div class="footer-links">
+              <p>Kuwa Kabiri &ndash; Kuwa Kane: 12:00 PM &ndash; 10:30 PM</p>
+              <p>Kuwa Gatanu &ndash; Ku Cyumweru: 12:00 PM &ndash; 11:30 PM</p>
+              <p style="color: var(--color-amber-primary); font-size: 0.75rem;">Kuwa Mbere: Ifuru irafunze (Dutegura ubusemburo)</p>
+              <a href="contact.html" style="color: var(--color-text-muted); font-size: 0.8rem; text-decoration: underline; margin-top: 0.5rem; display: inline-block;">
+                Kora reservation yo ku meza &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Aho Duherereye mu Rwanda</h4>
+            <div class="footer-links">
+              <a href="contact.html" style="display: block;">
+                <strong>KG 9 Ave, Nyarutarama</strong>
+                <span style="display: block; color: var(--color-text-muted); font-size: 0.8rem;">Kigali, Rwanda (Hafi ya Golf Club)</span>
+              </a>
+              <a href="contact.html" style="display: block;">
+                <strong>Ishami rya Kimihurura: KG 674 St</strong>
+                <span style="display: block; color: var(--color-text-muted); font-size: 0.8rem;">Hafi ya Convention Centre</span>
+              </a>
+              <a href="tel:+250788456789" style="font-family: var(--font-mono); color: #ffffff; display: block;">
+                📞 +250 788 456 789 / +250 790 123 456
+              </a>
+              <a href="mailto:kigali@italianopizza.rw" style="color: var(--color-amber-primary); display: block;">
+                ✉️ kigali@italianopizza.rw
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 ITALIANO PIZZA Kigali, Rwanda. Uburenganzira bwose burabitswe.</p>
+          <div style="display: flex; gap: 1rem;">
+            <a href="contact.html" style="color: var(--color-amber-primary);">Twandikire</a>
+            <span>&middot;</span>
+            <a href="italiano-pizza-website.zip" download="italiano-pizza-website.zip" style="color: var(--color-amber-primary); text-decoration: underline;">⬇ Download Website (ZIP)</a>
+            <span>&middot;</span>
+            <span>Kigali, Rwanda</span>
+            <span>&middot;</span>
+            <span>Ifuru y&rsquo;Amabuye y&rsquo;Inkwi</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
