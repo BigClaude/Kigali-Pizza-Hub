@@ -16,13 +16,8 @@ italiano-pizza-website/
 ├── about.html        # Our story, artisanal 72-hour sourdough process, Kigali branch team
 ├── contact.html      # Rwandan addresses (Nyarutarama & Kimihurura), phone, booking form
 ├── css/              # Clean, modular CSS stylesheets
-│   ├── style.css       # Master stylesheet importing all modules
-│   ├── variables.css   # Color palette, spacing, typography tokens
-│   ├── reset.css       # Modern CSS reset & box-sizing
-│   ├── animations.css  # Button hover transitions, sheen effects, card animations
-│   ├── layout.css      # Header, navigation, hover dropdowns, footer grid
-│   └── components.css  # Pure CSS modals, tabs, gallery filters, video theater
-├── images/           # High quality pizza imagery
+│   
+├── images/           # High quality pizza images
 │   ├── hero-margherita.jpg
 │   ├── menu-hero.jpg
 │   ├── pizza-diavola.jpg
