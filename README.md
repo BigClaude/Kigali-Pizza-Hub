@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔥 ITALIANO PIZZA — Kigali, Rwanda
 ### Complete Standalone Website Package (Pure HTML & CSS)
 
@@ -61,3 +62,6 @@ italiano-pizza-website/
 - **Kimihurura Branch**: KG 674 St, Kimihurura, Kigali (Near Kigali Convention Centre)
 - **Phone**: +250 783216399 
 - **Email**: kigali@italianopizza.rw
+=======
+#Kigali top pizza Website
+>>>>>>> e4948808bb10f866d4243eb9c7d304e6d5c66ce1
